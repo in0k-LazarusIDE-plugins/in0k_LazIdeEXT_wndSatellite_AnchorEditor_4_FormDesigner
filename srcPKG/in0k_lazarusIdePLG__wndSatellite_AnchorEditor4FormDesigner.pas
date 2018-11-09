@@ -11,9 +11,10 @@ uses {$ifDef in0k_LazarusIdeEXT__DEBUG}in0k_lazarusIdeSRC__wndDEBUG,{$endIf}
   in0k_lazarusIdeSRC__fuckUp_onActivate,
   in0k_lazarusIdeSRC__ideForm_AnchorEditor,
   in0k_lazarusIdeSRC__B2SP,
-  //SrcEditorIntf,
+  //-------
   FormEditingIntf,
   PropEdits,
+  //-------
   Classes,
   Forms;
 

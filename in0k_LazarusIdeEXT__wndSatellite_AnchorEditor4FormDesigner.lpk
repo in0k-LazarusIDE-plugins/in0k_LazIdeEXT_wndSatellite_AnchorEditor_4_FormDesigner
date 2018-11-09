@@ -8,7 +8,7 @@
       <Version Value="11"/>
       <PathDelim Value="\"/>
       <SearchPaths>
-        <OtherUnitFiles Value="srcEXT\in0k_lazarusIdeSRC__expertCORE;srcEXT\in0k_lazarusIdeSRC__wndDEBUG;srcPKG;srcEXT\in0k_lazarusIdeSRC__fuckUpControlEVENT;srcEXT\in0k_lazarusIdeSRC__ideForms;srcEXT\in0k_lazarusIdeSRC__B2SP;srcEXT\in0k-bringToSecondPlane"/>
+        <OtherUnitFiles Value="srcEXT\in0k_lazarusIdeSRC__expertCORE;srcEXT\in0k_lazarusIdeSRC__wndDEBUG;srcEXT\in0k_lazarusIdeSRC__fuckUpControl;srcEXT\in0k_lazarusIdeSRC__ideForms;srcEXT\in0k_lazarusIdeSRC__B2SP;srcEXT\in0k-bringToSecondPlane;srcPKG"/>
         <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
       </SearchPaths>
       <CodeGeneration>
@@ -23,7 +23,7 @@
         </Debugging>
       </Linking>
     </CompilerOptions>
-    <Files Count="11">
+    <Files Count="10">
       <Item1>
         <Filename Value="in0k_LazarusIdeEXT__REGISTER.pas"/>
         <HasRegisterProc Value="True"/>
@@ -46,29 +46,25 @@
         <UnitName Value="in0k_lazarusIdePLG__wndSatellite_AnchorEditor4FormDesigner"/>
       </Item5>
       <Item6>
-        <Filename Value="srcEXT\in0k_lazarusIdeSRC__fuckUpControlEVENT\in0k_lazarusIdeSRC__tControlWndProc_fuckUp.pas"/>
-        <UnitName Value="in0k_lazarusIdeSRC__tControlWndProc_fuckUp"/>
-      </Item6>
-      <Item7>
-        <Filename Value="srcEXT\in0k_lazarusIdeSRC__fuckUpControlEVENT\in0k_lazarusIdeSRC__fuckUp_onActivate.pas"/>
-        <UnitName Value="in0k_lazarusIdeSRC__fuckUp_onActivate"/>
-      </Item7>
-      <Item8>
         <Filename Value="srcEXT\in0k_lazarusIdeSRC__ideForms\in0k_lazarusIdeSRC__ideForm_AnchorEditor.pas"/>
         <UnitName Value="in0k_lazarusIdeSRC__ideForm_AnchorEditor"/>
-      </Item8>
-      <Item9>
+      </Item6>
+      <Item7>
         <Filename Value="srcEXT\in0k_lazarusIdeSRC__B2SP\in0k_lazarusIdeSRC__B2SP.pas"/>
         <UnitName Value="in0k_lazarusIdeSRC__B2SP"/>
-      </Item9>
-      <Item10>
+      </Item7>
+      <Item8>
         <Filename Value="srcEXT\in0k-bringToSecondPlane\in0k_bringToSecondPlane_LazLCL.pas"/>
         <UnitName Value="in0k_bringToSecondPlane_LazLCL"/>
-      </Item10>
-      <Item11>
+      </Item8>
+      <Item9>
         <Filename Value="srcEXT\in0k-bringToSecondPlane\in0k_bringToSecondPlane_WinAPI.pas"/>
         <UnitName Value="in0k_bringToSecondPlane_WinAPI"/>
-      </Item11>
+      </Item9>
+      <Item10>
+        <Filename Value="srcEXT\in0k_lazarusIdeSRC__fuckUpControl\in0k_lazarusIdeSRC__fuckUp_onActivate.pas"/>
+        <UnitName Value="in0k_lazarusIdeSRC__fuckUp_onActivate"/>
+      </Item10>
     </Files>
     <RequiredPkgs Count="2">
       <Item1>

@@ -11,11 +11,9 @@ uses
     in0k_LazarusIdeEXT__REGISTER, in0k_lazarusIdeSRC__expertCORE, 
     in0k_lazarusIdeSRC__wndDEBUG, 
     in0k_lazarusIdePLG__wndSatellite_AnchorEditor4FormDesigner, 
-    in0k_lazarusIdeSRC__tControlWndProc_fuckUp, 
-    in0k_lazarusIdeSRC__fuckUp_onActivate, 
     in0k_lazarusIdeSRC__ideForm_AnchorEditor, in0k_lazarusIdeSRC__B2SP, 
     in0k_bringToSecondPlane_LazLCL, in0k_bringToSecondPlane_WinAPI, 
-    LazarusPackageIntf;
+    in0k_lazarusIdeSRC__fuckUp_onActivate, LazarusPackageIntf;
 
 implementation
 

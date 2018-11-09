@@ -1,18 +1,18 @@
-unit in0k_lazExt_REGISTER;
+unit in0k_LazarusIdeEXT__REGISTER;
 
 {$mode objfpc}{$H+}
 
 interface
 
-{$i in0k_lazExt_SETTINGs.inc} //< настройки "компонента-Расширения".
+{$i in0k_LazarusIdeSRC__Settings.inc} //< настройки "компонента-Расширения".
 
-uses {$ifDef in0k_LazIdeEXT_wndInspector_FF8S___DebugLOG}in0k_lazExt_DEBUG,{$endIf}
-     lazExt_wndInspector_FF8S;
+uses //{$ifDef in0k_LazIdeEXT_wndInspector_FF8S___DebugLOG}in0k_lazExt_DEBUG,{$endIf}
+     in0k_lazarusIdePLG__wndSatellite_AnchorEditor4FormDesigner;
 
 procedure REGISTER;
 
 implementation
-
+(*
 {%region --- возня с ДЕБАГОМ -------------------------------------- /fold}
 {$if declared(in0k_lazIde_DEBUG)}
     // `in0k_lazIde_DEBUG` - это функция ИНДИКАТОР что используется DEBUG
@@ -22,9 +22,9 @@ implementation
     {$undef _debugLOG_}
 {$endIf}
 {%endregion}
-
+*)
 // переменная для хранения экземпляра ГЛАВНОГО класса "компонента-Расширения"
-var _extOBJ_:tLazExt_wndInspector_FF8S;
+//var _extOBJ_:tLazExt_wndInspector_FF8S;
 
 procedure REGISTER;
 begin
@@ -33,15 +33,16 @@ begin
     in0k_lazExt_DEBUG.LazarusIDE_SetUP(tLazExt_wndInspector_FF8S.ClassName);
     {$endIf}
     // создаем и регистрируем ГЛАВНЫЙ экземпляр класса "компонента-Расширения"
-   _extOBJ_:=tLazExt_wndInspector_FF8S.Create;
-   _extOBJ_.LazarusIDE_SetUP; //< оно САМО отпишется при закрытии IDE
+  // _extOBJ_:=tLazExt_wndInspector_FF8S.Create;
+//   _extOBJ_.LazarusIDE_SetUP; //< оно САМО отпишется при закрытии IDE
+    tIn0k_LazIdeEXT__wndStllte__AnchorEditor4FormDesigner.CREATE;
 end;
 
 initialization
-_extOBJ_:=nil;
+//_extOBJ_:=nil;
 
 finalization
-_extOBJ_.FREE;
+//_extOBJ_.FREE;
 
 end.
 

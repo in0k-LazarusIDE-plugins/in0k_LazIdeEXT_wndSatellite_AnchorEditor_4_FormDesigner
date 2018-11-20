@@ -8,7 +8,7 @@
       <Version Value="11"/>
       <PathDelim Value="\"/>
       <SearchPaths>
-        <OtherUnitFiles Value="srcEXT\in0k_lazarusIdeSRC__expertCORE;srcEXT\in0k_lazarusIdeSRC__wndDEBUG;srcEXT\in0k_lazarusIdeSRC__fuckUpControl;srcEXT\in0k_lazarusIdeSRC__ideForms;srcEXT\in0k_lazarusIdeSRC__B2SP;srcEXT\in0k-bringToSecondPlane;srcPKG"/>
+        <OtherUnitFiles Value="srcEXT\in0k_lazarusIdeSRC__expertCORE;srcEXT\in0k_lazarusIdeSRC__wndDEBUG;srcEXT\in0k_lazarusIdeSRC__fuckUpControl;srcEXT\in0k_lazarusIdeSRC__ideForms;srcEXT\in0k_lazarusIdeSRC__B2SP;srcEXT\in0k-bringToSecondPlane;srcPKG;srcEXT\in0k_lazarusIdeSRC__wndSatellite_templates"/>
         <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
       </SearchPaths>
       <CodeGeneration>
@@ -23,7 +23,7 @@
         </Debugging>
       </Linking>
     </CompilerOptions>
-    <Files Count="10">
+    <Files Count="13">
       <Item1>
         <Filename Value="in0k_LazarusIdeEXT__REGISTER.pas"/>
         <HasRegisterProc Value="True"/>
@@ -65,6 +65,18 @@
         <Filename Value="srcEXT\in0k_lazarusIdeSRC__fuckUpControl\in0k_lazarusIdeSRC__fuckUp_onActivate.pas"/>
         <UnitName Value="in0k_lazarusIdeSRC__fuckUp_onActivate"/>
       </Item10>
+      <Item11>
+        <Filename Value="srcEXT\in0k_lazarusIdeSRC__wndSatellite_templates\in0k_lazarusIdeSRC__wndSatellite_templates__4FormDesigner.pas"/>
+        <UnitName Value="in0k_lazarusIdeSRC__wndSatellite_templates__4FormDesigner"/>
+      </Item11>
+      <Item12>
+        <Filename Value="srcEXT\in0k_lazarusIdeSRC__fuckUpControl\in0k_lazarusIdeSRC__tControl_fuckUpWndProc.pas"/>
+        <UnitName Value="in0k_lazarusIdeSRC__tControl_fuckUpWndProc"/>
+      </Item12>
+      <Item13>
+        <Filename Value="srcEXT\in0k_lazarusIdeSRC__fuckUpControl\in0k_lazarusIdeSRC__tControls_fuckUpWndProc.pas"/>
+        <UnitName Value="in0k_lazarusIdeSRC__tControls_fuckUpWndProc"/>
+      </Item13>
     </Files>
     <RequiredPkgs Count="2">
       <Item1>

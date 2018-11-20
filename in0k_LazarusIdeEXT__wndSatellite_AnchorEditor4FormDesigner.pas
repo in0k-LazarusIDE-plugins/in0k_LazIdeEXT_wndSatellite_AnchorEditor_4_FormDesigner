@@ -8,22 +8,25 @@ unit in0k_LazarusIdeEXT__wndSatellite_AnchorEditor4FormDesigner;
 interface
 
 uses
-    in0k_LazarusIdeEXT__REGISTER, in0k_lazarusIdeSRC__expertCORE, 
-    in0k_lazarusIdeSRC__wndDEBUG, 
-    in0k_lazarusIdePLG__wndSatellite_AnchorEditor4FormDesigner, 
-    in0k_lazarusIdeSRC__ideForm_AnchorEditor, in0k_lazarusIdeSRC__B2SP, 
-    in0k_bringToSecondPlane_LazLCL, in0k_bringToSecondPlane_WinAPI, 
-    in0k_lazarusIdeSRC__fuckUp_onActivate, LazarusPackageIntf;
+  in0k_LazarusIdeEXT__REGISTER, in0k_lazarusIdeSRC__expertCORE, 
+  in0k_lazarusIdeSRC__wndDEBUG, 
+  in0k_lazarusIdePLG__wndSatellite_AnchorEditor4FormDesigner, 
+  in0k_lazarusIdeSRC__ideForm_AnchorEditor, in0k_lazarusIdeSRC__B2SP, 
+  in0k_bringToSecondPlane_LazLCL, in0k_bringToSecondPlane_WinAPI, 
+  in0k_lazarusIdeSRC__fuckUp_onActivate, 
+  in0k_lazarusIdeSRC__wndSatellite_templates__4FormDesigner, 
+  in0k_lazarusIdeSRC__tControl_fuckUpWndProc, 
+  in0k_lazarusIdeSRC__tControls_fuckUpWndProc, LazarusPackageIntf;
 
 implementation
 
 procedure Register;
 begin
   RegisterUnit('in0k_LazarusIdeEXT__REGISTER', 
-			@in0k_LazarusIdeEXT__REGISTER.Register);
+    @in0k_LazarusIdeEXT__REGISTER.Register);
 end;
 
 initialization
   RegisterPackage('in0k_LazarusIdeEXT__wndSatellite_AnchorEditor4FormDesigner', 
-			@Register);
+    @Register);
 end.
